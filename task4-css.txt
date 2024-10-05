@@ -1,0 +1,171 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Home Section */
+#home {
+    height: 100vh; /* Full height */
+    background-image: url('../images/home-bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+/* About Me Section */
+#about {
+    height: 100vh; /* Full height */
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    background-image: url('image.png');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+/* Projects Section */
+#projects {
+    height: 100vh; /* Full height */
+    background-color: #333;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 28px;
+}
+
+.project a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Contact Section */
+#contact {
+    height: 100vh; /* Full height */
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

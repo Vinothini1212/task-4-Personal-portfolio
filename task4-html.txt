@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="intro">
+            <h1>Creative Web Developer & Problem Solver</h1>
+            <p>Hi, I'm [Your Name], a passionate developer skilled in creating responsive, dynamic web applications.</p>
+            
+        </div>
+        
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I am a web developer with experience in building modern web applications that focus on functionality and aesthetics...</p>
+        <h3>Education</h3>
+        <p>Bachelor's in Computer Science from XYZ University</p>
+        <h3>Professional Experience</h3>
+        <p>Currently working as a Web Developer at ProDigy Infotech. I specialize in JavaScript, React, and responsive web design.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Stopwatch Web Application</h3>
+            <p>A JavaScript-based stopwatch app with start, pause, and reset functionality.</p>
+            <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Tic-Tac-Toe Game</h3>
+            <p>A fully functional Tic-Tac-Toe game that allows two players to compete in real-time.</p>
+            <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

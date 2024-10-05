@@ -1,0 +1,32 @@
+// Smooth scrolling for navigation links
+const navLinks = document.querySelectorAll('nav ul li a');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        document.querySelector(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Contact form handling
+const contactForm = document.getElementById('contactForm');
+
+contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = contactForm.querySelector('input[name="name"]').value;
+    const email = contactForm.querySelector('input[name="email"]').value;
+    const message = contactForm.querySelector('textarea[name="message"]').value;
+
+    if (name === '' || email === '' || message === '') {
+        alert('Please fill in all fields.');
+        return;
+    }
+
+    // Display a success message (this can be replaced with actual form handling code)
+    alert(`Thank you, ${name}! Your message has been sent.`);
+    contactForm.reset();
+});
